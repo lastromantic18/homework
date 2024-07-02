@@ -1,0 +1,9 @@
+score = int(input("Ваша оценка:"))
+if score >=90:
+    print("Ваша оценка А (отл)")
+elif score >= 80:
+    print("Ваша оценка B(хор)")
+elif score >= 70:
+    print("Ваша оценка С (удовл)")
+else:
+    print("Ваша оценка D (неуд)")
